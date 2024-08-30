@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "dotenv": "^10.0.0"   // Add dotenv to manage environment variables
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"  // Optional: if you want to use nodemon for development
+  }
+}
+
+
